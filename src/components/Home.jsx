@@ -120,7 +120,7 @@ const Home = ({ onNavigate }) => {
             {/* Hero Section */}
             <section className="hero-section">
                 <div className="hero-content">
-                    <div className="hero-icon-container glass-card scale-in">
+                    <div className="hero-icon-container scale-in">
                         <img src={logo} alt="PisethIP Logo" className="hero-logo-img" />
                     </div>
                     <h1 className="hero-title">
@@ -189,7 +189,7 @@ const Home = ({ onNavigate }) => {
                     </p>
                     <div className="hero-stats">
                         <div className="stat-item">
-                            <div className="stat-number">8</div>
+                            <div className="stat-number">11</div>
                             <div className="stat-label">{t('tools')}</div>
                         </div>
                         <div className="stat-item">

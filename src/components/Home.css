@@ -23,7 +23,7 @@
     margin-bottom: 2rem;
     display: inline-block;
     padding: 2rem;
-    border-radius: 50%;
+    border-radius: var(--radius-lg);
 }
 
 .hero-logo-img {
@@ -47,7 +47,7 @@
 }
 
 .hero-title {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 3.5rem;
     font-weight: 800;
     margin-bottom: 1.5rem;
@@ -150,7 +150,7 @@
 }
 
 .stat-number {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 3rem;
     font-weight: 800;
     background: var(--gradient-accent);
@@ -174,7 +174,7 @@
 }
 
 .section-heading {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 2.5rem;
     font-weight: 800;
     text-align: center;
@@ -242,7 +242,7 @@
 }
 
 .feature-title {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--text-primary);
@@ -262,7 +262,7 @@
     color: var(--primary);
     padding: 0.75rem 1.5rem;
     border-radius: var(--radius-md);
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 0.95rem;
     font-weight: 600;
     cursor: pointer;
@@ -311,7 +311,7 @@
 }
 
 .info-card h3 {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--text-primary);
@@ -646,7 +646,7 @@
 }
 
 .modal-title {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 2rem;
     font-weight: 700;
     color: var(--text-primary);
