@@ -113,6 +113,14 @@ const Home = ({ onNavigate }) => {
             details: 'Get real-time weather updates for any location. View temperature, humidity, wind speed, and detailed forecasts to plan your day or monitor conditions in remote locations.',
             gradient: 'var(--gradient-primary)',
         },
+        {
+            id: 'imageosint',
+            icon: '📸',
+            title: t('imageOsint'),
+            description: 'Extract GPS coordinates and metadata from images.',
+            details: 'Upload any image to extract EXIF metadata including GPS location, camera settings, date taken, and more. View the location on an interactive map with reverse geocoding to get detailed address information. Perfect for OSINT investigations and digital forensics.',
+            gradient: 'var(--gradient-accent)',
+        },
     ];
 
     return (
@@ -189,7 +197,7 @@ const Home = ({ onNavigate }) => {
                     </p>
                     <div className="hero-stats">
                         <div className="stat-item">
-                            <div className="stat-number">11</div>
+                            <div className="stat-number">12</div>
                             <div className="stat-label">{t('tools')}</div>
                         </div>
                         <div className="stat-item">

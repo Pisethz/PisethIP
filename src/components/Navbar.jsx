@@ -24,6 +24,7 @@ const Navbar = ({ activeView, onNavigate }) => {
         { id: 'subnet', icon: '🔢', label: 'Subnet Calc' },
         { id: 'speedtest', icon: '⚡', label: t('speedTest') },
         { id: 'weather', icon: '☁️', label: t('weather') },
+        { id: 'imageosint', icon: '📸', label: t('imageOsint') },
     ];
 
     const handleNavigate = (id) => {

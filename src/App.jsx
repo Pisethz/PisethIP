@@ -14,6 +14,7 @@ import TraceEmail from './components/TraceEmail';
 import SpeedTest from './components/SpeedTest';
 import WeatherCheck from './components/WeatherCheck';
 import SubnetCalculator from './components/SubnetCalculator';
+import ImageOSINT from './components/ImageOSINT';
 import './App.css';
 
 function AppContent() {
@@ -33,6 +34,7 @@ function AppContent() {
       case 'speedtest': return <SpeedTest />;
       case 'weather': return <WeatherCheck />;
       case 'subnet': return <SubnetCalculator />;
+      case 'imageosint': return <ImageOSINT />;
       default: return <Home onNavigate={setActiveView} />;
     }
   };
